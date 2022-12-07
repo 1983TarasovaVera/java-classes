@@ -4,8 +4,8 @@ public abstract class Child {
 
     static String mother = "Вера";
 
-    String name;
-    int age;
+    public String name;
+    public int age;
 
     public Child(String name, int age) {
         this.name = name;
